@@ -1,4 +1,4 @@
-package com.company;
+package com.company.observer;
 
 public class PaymentEventLogger implements PaymentListener{
     private void logEvent(){

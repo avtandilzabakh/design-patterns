@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9b328d7-6794-460a-a3da-39da51585fd7" name="Changes" comment="" />
+    <list default="true" id="b9b328d7-6794-460a-a3da-39da51585fd7" name="Changes" comment="builder design pattern">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/builder/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/NotificationMandager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/PaymentEventLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/PaymentListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/PaymentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NotificationMandager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/NotificationMandager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaymentEventLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/PaymentEventLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaymentListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/PaymentListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaymentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/PaymentManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +24,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="builder" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M8LfR91rQJVnTP4J7XEPUaz6Ak" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -79,6 +117,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -95,6 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -107,10 +150,28 @@
       <option name="presentableId" value="Default" />
       <updated>1677144374646</updated>
       <workItem from="1677144379865" duration="1742000" />
+      <workItem from="1677147157264" duration="3115000" />
+      <workItem from="1677311048945" duration="3026000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
+    <MESSAGE value="builder design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder design pattern" />
   </component>
 </project>

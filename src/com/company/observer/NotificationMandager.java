@@ -1,4 +1,4 @@
-package com.company;
+package com.company.observer;
 
 public class NotificationMandager implements PaymentListener{
     private void sendNotification(){
