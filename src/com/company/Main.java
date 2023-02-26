@@ -1,10 +1,10 @@
 package com.company;
 
 import com.company.builder.Product;
+import com.company.decorator.EmailSender;
+import com.company.decorator.NotificationSender;
+import com.company.decorator.SmsSender;
 import com.company.observer.NotificationMandager;
-import com.company.observer.PaymentEventLogger;
-import com.company.observer.PaymentListener;
-import com.company.observer.PaymentManager;
 
 public class Main {
 
@@ -23,17 +23,26 @@ public class Main {
 
 
         //        <--------------------builder start --------------------->
-        Product p1 = new Product.Builder()
-                .id(1232)
-                .color("red")
-                .build();
-        System.out.println(p1);
-
-        Product p2 = Product.builder()
-                .color("green")
-                .build();
-        System.out.println(p2);
+//        Product p1 = new Product.Builder()
+//                .id(1232)
+//                .color("red")
+//                .build();
+//        System.out.println(p1);
+//
+//        Product p2 = Product.builder()
+//                .color("green")
+//                .build();
+//        System.out.println(p2);
         //        <--------------------builder end --------------------->
+
+
+
+        //        <--------------------decorator start --------------------->
+//        NotificationSender n1 = new EmailSender(new SmsSender(null));
+//        NotificationSender n2 = new SmsSender(new EmailSender(null));
+//        n1.send();
+//        n2.send();
+        //        <--------------------decorator end --------------------->
 
     }
 }

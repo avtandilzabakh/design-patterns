@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b328d7-6794-460a-a3da-39da51585fd7" name="Changes" comment="builder design pattern">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/builder/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/NotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/SmsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/NotificationMandager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/PaymentEventLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/PaymentListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/com/company/PaymentManager.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/NotificationMandager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/NotificationMandager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PaymentEventLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/PaymentEventLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PaymentListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/PaymentListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PaymentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/PaymentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +112,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.decorator" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -151,8 +148,25 @@
       <updated>1677144374646</updated>
       <workItem from="1677144379865" duration="1742000" />
       <workItem from="1677147157264" duration="3115000" />
-      <workItem from="1677311048945" duration="3026000" />
+      <workItem from="1677311048945" duration="4268000" />
+      <workItem from="1677394377349" duration="1833000" />
+      <workItem from="1677438045913" duration="1665000" />
     </task>
+    <task id="LOCAL-00001" summary="builder design pattern">
+      <created>1677318963078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318963078</updated>
+    </task>
+    <task id="LOCAL-00002" summary="builder design pattern">
+      <created>1677318992555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318992555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
